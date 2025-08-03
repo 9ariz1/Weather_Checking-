@@ -62,7 +62,7 @@ python app.py
 http://127.0.0.1:5001/
 
 
-##🧠 Skills You Showcase :
+### 🧠 Skills You Showcase :
 🔥 Flask (Routing, Rendering, Handling POST requests)
 
 ⚡ API Integration (OpenWeatherMap)
@@ -74,7 +74,7 @@ http://127.0.0.1:5001/
 🚨 Error handling & clean user feedback
 
 
-###📸 Output:
+### 📸 Output:
 
 <img width="937" height="848" alt="Screenshot 2025-08-03 182611" src="https://github.com/user-attachments/assets/4acccacf-2945-4df1-b90f-9dd562a1bdd6" />
 
