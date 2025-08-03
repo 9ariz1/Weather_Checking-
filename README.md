@@ -12,18 +12,17 @@ Using Flask and OpenWeatherMap’s RESTful API, the app fetches live weather dat
 
 ## 📁 Project Structure :
 
-Weather Analysis/     
+```
+weather-app/
 ├── app.py
 ├── static/
 │   └── style.css
 ├── templates/
 │   └── index.html
-└── README.md               
+└── README.md
+```
 
-
-
-
-
+   
 ---
 
 ## 🚀 How It Works:
