@@ -39,7 +39,7 @@ weather-app/
 
 ### 1️⃣ Clone the repository:
 
-```bash
+
 git clone https://github.com/9ariz1/Weather_Checking.git
 cd Weather_Checking
 
