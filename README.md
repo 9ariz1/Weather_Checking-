@@ -42,6 +42,7 @@ weather-app/
 
 
 git clone https://github.com/9ariz1/Weather_Checking-.git
+
 cd Weather_Checking
 
 ### 2️⃣ Install required packages:
