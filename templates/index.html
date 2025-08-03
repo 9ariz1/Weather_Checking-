@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Weather App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Dashboard</h1>
+        <p class="current-date-time">{{ current_time_date }}</p> <form method="POST" action="/">
+            <input type="text" name="city" placeholder="Enter city name" value="{{ city_name if city_name else '' }}">
+            <button type="submit">Get Weather</button>
+        </form>
+
+        {% if weather %}
+            <div class="weather-card">
+                <h2>{{ weather.city }}</h2>
+                <div class="weather-info">
+                    <img src="http://openweathermap.org/img/wn/{{ weather.icon }}@2x.png" alt="Weather Icon" class="weather-icon">
+                    <p class="temperature">{{ weather.temperature }}°C</p>
+                </div>
+                    <p>Description: {{ weather.description }}</p>
+                    <p>Humidity: {{ weather.humidity }}%</p>
+                    <p>Wind Speed: {{ weather.wind_speed }} m/s</p>
+                    <i class="fas fa-tachometer-alt icon-margin"></i>
+                    <p>Pressure: {{ weather.pressure }} hPa</p> 
+                </div>
+        {% elif error %}
+            <p class="error-message">{{ error }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
