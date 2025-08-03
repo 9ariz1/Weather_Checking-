@@ -1,24 +1,24 @@
-# 🌤️ Real-Time Weather Forecast App using Flask & OpenWeatherMap
+# 🌤️ Real-Time Weather Forecast App using Flask & OpenWeatherMap:
 
 This project is a beautiful and responsive weather dashboard built using **Flask** and **OpenWeatherMap API**, allowing users to fetch real-time weather information by city name.
 
 ---
 
-## 🔍 Overview
+## 🔍 Overview:
 
 Using Flask and OpenWeatherMap’s RESTful API, the app fetches live weather data including temperature, humidity, wind speed, pressure, and description. The UI is styled using CSS with modern **glassmorphism** effects to give it a polished look.
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure :
 
-weather-app/
-├── app.py                   
+Weather Analysis/     
+├── app.py
 ├── static/
-│   └── style.css            
+│   └── style.css
 ├── templates/
-│   └── index.html         
-└── README.md                # Project documentation
+│   └── index.html
+└── README.md               
 
 
 
@@ -26,7 +26,7 @@ weather-app/
 
 ---
 
-## 🚀 How It Works
+## 🚀 How It Works:
 
 1. User enters a city name in the search field.
 2. On form submission, Flask sends a GET request to OpenWeatherMap API.
