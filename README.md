@@ -52,7 +52,7 @@ pip install flask requests
 ### 3️⃣ Replace API Key:
 Open app.py and replace the API key string:
 
-API_KEY = "5a945612ae9abfaa000d54d3c0ed0940"
+API_KEY = "5a945612ae9abfaa000d54d3c0ed0940**"
 
 ### 4️⃣ Run the app:
 
